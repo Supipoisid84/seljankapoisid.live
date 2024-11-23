@@ -1,46 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Cinzel', serif;
+    background-color: #eae0d5;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/old_map.jpg');
+    background-size: cover;
+    color: #4b3f3f;
 }
 
 header {
-    background: #333;
+    background-color: #6b4f4f;
     color: #fff;
-    padding: 1rem 0;
+    padding: 20px 0;
     text-align: center;
+    border-bottom: 5px solid #8d7b7b;
 }
 
 nav ul {
-    background: #444;
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #6b4f4f;
     text-align: center;
-    margin: 0;
+    border-bottom: 3px solid #8d7b7b;
 }
 
 nav ul li {
     display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
-    padding: 0.5rem 1rem;
-    display: inline-block;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    background: #555;
+    font-weight: bold;
 }
 
 section {
-    padding: 1rem;
-    margin: 1rem auto;
-    max-width: 800px;
-    background: #fff;
-    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#about,
+section#projects,
+section#contact {
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #6b4f4f;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 5px solid #8d7b7b;
 }
